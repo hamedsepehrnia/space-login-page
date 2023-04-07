@@ -1,0 +1,112 @@
+body {
+
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+
+}
+
+form {
+    padding: 3em;
+    height: 360px;
+    text-align: center;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    background: rgba(51, 119, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(51, 119, 255, 0.235);
+    backdrop-filter: blur(6.0px);
+    border-radius: 10px;
+    border: 1px solid #37f;
+}
+
+form img {
+  
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px slod #37f;
+}
+
+form h2 {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+form a {
+    text-decoration: none;
+    color: #37f;
+    font-size: 12px;
+}
+
+form a:hover {
+    text-shadow: 2px 2px 6px #00000040;
+}
+
+form a:active {
+    text-shadow: none;
+}
+
+form input {
+    width: 200px;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 5000px;
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #37f;
+    box-shadow: 0 2px 10px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.0px);
+    font-family: montserrat, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+form input[type="button"] {
+    margin-top: 10px;
+    width: 150px;
+    font-size: 1rem;
+    background: rgba(51, 119, 255, 0.585);
+    color: #ffffff;
+}
+
+form input[type="button"]:hover {
+    cursor: pointer;
+}
+
+form input[type="button"]:active {
+    background: rgba(255, 255, 255, 0.18);
+}
+
+::placeholder {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    color: #37f;
+}
+
+.drop {
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+a,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
